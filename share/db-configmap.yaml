@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-configmap
+  labels:
+    app: db-configmap
+data:
+  MYSQL_ROOT_PASSWORD: nmttpocos
+  MYSQL_PASSWORD: nmttpocos
+  MYSQL_DATABASE: empresa
